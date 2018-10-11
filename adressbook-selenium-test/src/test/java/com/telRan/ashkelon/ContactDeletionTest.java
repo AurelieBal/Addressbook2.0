@@ -1,0 +1,26 @@
+package com.telRan.ashkelon;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class ContactDeletionTest extends TestBase{
+
+    @Test
+    public void testDeleteContact(){
+        selectContact();
+        delectContact();
+        confirmAlert();
+    }
+
+    public void confirmAlert() {
+        wd.switchTo().alert().accept();
+    }
+
+    public void delectContact() {
+        click(By.cssSelector("input[value=Delete]"));
+    }
+
+    public void selectContact() {
+        click(By.name("selected[]"));
+    }
+}

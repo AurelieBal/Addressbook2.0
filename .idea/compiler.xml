@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="adressbook-selenium-test_main" target="1.8" />
+      <module name="adressbook-selenium-test_test" target="1.8" />
+      <module name="repetition_main" target="1.8" />
+      <module name="repetition_test" target="1.8" />
+      <module name="trello_tests_main" target="1.8" />
+      <module name="trello_tests_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
